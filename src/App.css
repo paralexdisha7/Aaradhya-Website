@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Play&family=Poppins:wght@200;300;500;600&display=swap");
+
+*{
+    background-color: #324A5F;
+
+}
+
+.App{
+    /* background-color: #324A5F; */
+    height: 100%;
+    width: 100%;
+}
+h6{
+    position: relative;
+    bottom: 10px;
+    left: 0px;
+}

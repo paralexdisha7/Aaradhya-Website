@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Play&family=Poppins:wght@200;300;500;600&display=swap"); 
+
+.container{
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+h1{
+    /* background-color: aqua; */
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 300;
+    color: #ffe5bd;
+}
+h3{
+    /* font-size: 80px; */
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 200;
+    color: #ffe5bd;
+}
+.photos{
+    margin-top: 40px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        
+}
+.photos img{
+   width: 250px;
+   margin: 2px;
+   transition: ease-in 0.3s;
+}
+.photos img:hover{
+    transform: scale(2);
+    /* overflow: hidden; */
+   border-radius: 5px;
+   /* border: 2px solid #ffe5bd; */
+   box-shadow: 1px 1px 30px -10px #000000;
+   z-index: 2;
+   
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 80px;
+    flex-wrap: wrap;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 200;
+    color: #ffe5bd;
+    font-size: 20px;
+    /* padding: 20px; */
+    /* letter-spacing: 1px; */ 
+}
+.footer div{
+    margin-top: 10px;
+}
+.footer .location{
+    width: 30%;
+}
+
+@media (max-width:1100px){
+    .photos img{
+        width: 200px;
+        margin: 2px;
+     }  
+}
+@media (max-width:800px){
+    .photos img{
+        width: 150px;
+        margin: 2px;
+     }  
+}
+@media (max-width:680px){
+    
+    h1{
+        /* background-color: aqua; */
+        font-size: 40px;
+    }
+    h3{
+        font-size: 10px;
+    }
+    .container{
+        margin-top: 20px;
+    }
+    .photos{
+        margin-top: 20px;
+        /* background-color: aqua; */
+        flex-wrap: wrap;
+            
+    }
+    .photos img{
+       width: 100px;
+       margin: 2px;
+    }
+    .footer{
+        margin: 30px;
+        font-size: 10px;
+        
+    }
+    .footer .location{
+        width: 100%;
+    }
+    .footer .location .map{
+        width: 100%;
+    }
+
+    
+}
+@media (max-width:320px){
+    h1{
+        /* background-color: aqua; */
+        font-size: 25px;
+    }
+    h3{
+        display: none;
+    }
+    .footer{
+        margin: 10px;
+    }
+}

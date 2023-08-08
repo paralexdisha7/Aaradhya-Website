@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Play&family=Poppins:wght@200;300;500;600&display=swap"); 
+.active{
+    box-shadow: 1px 1px 10px 2px #ffe5bd8e;
+    border-radius: 5px;
+}
+body{
+    margin: 0px 30px;
+}
+nav{
+    z-index:1;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin:0px 30px ; */
+    position:sticky;
+    top: 0;
+    border-bottom:1px solid #ffe5bd ;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+    /* padding-right: 30px; */
+}
+nav ul li{
+    list-style: none;  
+    /* gap: 30px;   */
+}
+nav ul .social{
+   display: none;
+}
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    color: #ffe5bd;
+    padding: 5px 20px;
+    margin: 0 10px;
+    font-family: 'Poppins',sans-serif;
+    border: 1px solid #324A5F;
+    /* gap: 30px; */
+}
+
+img{
+    width: 100px;
+    /* box-shadow: 2px 2px 15px 10px white; */
+    /* background-color: none; */
+}
+nav ul li a:not(.active):hover{
+    /* box-shadow: 1px 1px 10px 2px #ffe5bd8e; */
+   /* background-color: rgba(0, 154, 226, 0.653); */
+   border: 1px solid #ffe5bd;
+   border-radius: 5px;
+   /* text-shadow: 1px 1px 10px 2px brown; */
+}
+
+ nav .menu{
+    display: none;
+    /* background-color: aqua; */
+    position: absolute;
+    top: 25px;;
+    left: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+}
+nav .menu span{
+    height: 3px;
+    width: 100%;
+    background-color: #ffe5bd;
+    border-radius: 0.2rem;
+}
+
+@media (max-width:950px){
+    nav ul{ 
+        gap: 10px;
+    }
+}
+
+@media (max-width:860px){
+    nav ul{ 
+        gap: 0px;
+    }
+}
+@media (max-width:780px){
+    nav ul li a{
+        
+        padding: 5px 10px;
+        margin: 0 5px;
+        
+    }
+}
+@media (max-width:680px){
+    nav .menu{
+        display: flex;
+        /* margin: 10px; */
+        /* padding: 10px; */
+    }
+    nav{
+        /* border-top:1px solid #ffe5bd ; */
+        /* width: 680px; */
+        flex-direction: column;
+        align-items: start;
+    }
+    nav ul{
+        display: none;
+        flex-direction: column;
+        width: 100%;  
+        margin-bottom: 30px;
+
+    }
+    nav ul.open{
+        display: flex;
+    }
+    nav ul li{
+        margin-top: 10px;
+        margin-bottom: 7px;
+        width: 100%;
+        text-align: center;
+    }
+    img{
+       margin-left:120% ;
+    }
+    nav ul .social{
+        /* //margin-top: 10px; */
+        display:flex;
+        justify-content: center;
+        
+     }
+}
