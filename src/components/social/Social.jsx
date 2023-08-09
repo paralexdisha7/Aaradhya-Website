@@ -15,7 +15,7 @@ const Social = () => {
       <a href="https://www.instagram.com/hotel_aaradhya_/">
         <FontAwesomeIcon icon={faInstagram} className="ics" />
       </a>
-      <a href="#">
+      <a href="https://www.facebook.com/profile.php?id=100088504933323&mibextid=2JQ9oc">
         <FontAwesomeIcon icon={faFacebook} className="ics" />
       </a>
       <a href="https://api.whatsapp.com/send?phone=7559114122">

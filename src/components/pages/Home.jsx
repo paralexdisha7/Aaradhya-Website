@@ -11,7 +11,7 @@ const Home = () => {
       <h1>Hotel Aaradhya</h1>
       <h3>Banquet Hall | Rooms | Movie Theatre | Restaurant</h3>
       <div className="photos">
-        <img src="images\Rectangle 3.png" alt="" />
+        <img src="images\5.jpg" alt="" />
         <img src="images\Rectangle 4.png" alt="" />
         <img src="images\Rectangle 5.png" alt="" />
         <img src="images\Rectangle 6.png" alt="" />

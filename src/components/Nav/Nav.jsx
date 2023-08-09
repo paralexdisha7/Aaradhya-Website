@@ -5,13 +5,19 @@ import './Nav.css'
 import Social from '../social/Social';
 export const Nav = () => {
     const[menuOpen,setMenuOpen]=useState(false)
+    const closeonScroll = () =>{
+        if(window.scrollY>=600){
+            setMenuOpen(false);
+        }
+     }
+     window.addEventListener('scroll',closeonScroll);
   return (
-    <nav>
+    <nav >
         <Link to={"/"}>
             <img src="images\logo.png" alt="Logo" />
         </Link>
         <div className="menu" onClick={()=>
-        setMenuOpen(!menuOpen) }>
+        setMenuOpen(!menuOpen) } >
             <span></span>
             <span></span>
             <span></span>
