@@ -12,7 +12,7 @@ nav{
     /* background-color: aqua; */
     display: flex;
     /* justify-self: center; */
-    margin-left: 2%;
+    margin-left: 3%;
     justify-content: space-between;
     align-items: center;
     /* margin:0px 30px ; */
@@ -43,8 +43,16 @@ nav ul li a{
     border: 1px solid #324A5F;
     /* gap: 30px; */
 }
-
-img{
+.nav-logo{
+    /* background-color: antiquewhite; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+   
+}
+.nav-logo img{
+    /* background-color: transparent; */
     width: 100px;
     /* box-shadow: 2px 2px 15px 10px white; */
     /* background-color: none; */
@@ -123,8 +131,18 @@ nav .menu span{
         width: 100%;
         text-align: center;
     }
-    img{
-       margin-left:120% ;
+    .nav-logo {
+        position: relative;
+        left: 40%;
+        height: 80px;
+    }
+    .nav-logo img{
+        /* background-color: aliceblue; */
+       /* margin-left:120% ; */
+       /* position: relative;
+       left: 50px; */
+       margin-bottom: 5px;
+       
     }
     nav ul .social{
         /* //margin-top: 10px; */

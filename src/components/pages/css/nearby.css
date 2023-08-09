@@ -13,12 +13,12 @@ h2{
 }
 .cards{
     margin: 0px 50px;
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     max-width: 1200px
-    
+     */
 }
 .cards a{
     transition: ease 0.5s;

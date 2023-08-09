@@ -12,7 +12,6 @@ const Services = () => {
         <Card head="Banquet Hall" image="images\Rectangle 3.png"  />
         <Card head="Banquet Hall" image="images\Rectangle 3.png"  />
         <Card head="Banquet Hall" image="images\Rectangle 3.png"  />
-  
       </div>
 
     </div>
