@@ -81,8 +81,13 @@ nav .menu span{
     width: 100%;
     background-color: #ffe5bd;
     border-radius: 0.2rem;
+    /* font-size: 10px; */
 }
-
+nav .menu span p{
+    color: #ffe5bd;
+    font-size: 10px;
+    font-weight: 100;
+}
 @media (max-width:950px){
     nav ul{ 
         gap: 10px;

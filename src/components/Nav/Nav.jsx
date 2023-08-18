@@ -16,6 +16,7 @@ export const Nav = () => {
             <span></span>
             <span></span>
             <span></span>
+            <span><p>menu</p></span>
         </div>
         <ul className={menuOpen ? "open" : ""}>
             <li><NavLink to={"/"}>Home</NavLink></li>

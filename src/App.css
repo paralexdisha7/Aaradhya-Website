@@ -11,9 +11,10 @@
     width: 100%;
 }
 h6{
-    position: relative;
+    position: fixed;
     bottom: 10px;
     left: 10px;
     font-weight: 100;
     color: #6f96b7;
+    background-color: transparent;
 }
