@@ -8,7 +8,7 @@ import Nearby from "./components/pages/Nearby";
 import Contact from "./components/pages/Contact";
 function App() {
   return (
-    <div className="App">
+    <div className="App" >
       <Nav />
       <Routes>
         <Route path="/" element={<Home />} />

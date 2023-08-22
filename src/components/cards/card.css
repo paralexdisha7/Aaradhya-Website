@@ -22,6 +22,12 @@
   background-color: #a2a2a2;
   color: #293d4e;
 }
+
+.tab .info {
+  background-color: transparent;
+  /* color: transparent; */
+  display: none;
+}
 .tab .info p {
   font-size: 13px;
   padding: 5px;
